@@ -1,0 +1,81 @@
+/* ------------------------------------ Colour palette 
+--champagne-pink: #eddcd2ff;
+--linen: #fff1e6ff;
+--pale-pink: #fde2e4ff;
+--mimi-pink: #fad2e1ff;
+--powder-blue: #c5deddff;
+--mint-cream: #dbe7e4ff;
+--isabelline: #f0efebff;
+--alice-blue: #d6e2e9ff;
+--beau-blue: #bcd4e6ff;
+--pale-cerulean: #99c1deff;
+*/
+
+/* ------------------------------------ Body background */
+
+body {
+    background-color: #8e9aaf;
+}
+
+/* ------------------------------------ Tile-Styling */
+
+.row {
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+    border-radius: 12px;
+    width: 100px;
+    height: 100px;
+    background-color: #f0efebff;
+    cursor: pointer;
+}
+
+.card.done {
+    cursor: default;
+}
+.card.done:hover {
+    cursor: default;
+    box-shadow: none;
+}
+
+/* ------------------------------------ Tile-colours */
+
+.champagne-pink {
+    background-color: #eddcd2ff;
+}
+
+.linen {
+    background-color: #fff1e6ff;
+}
+
+.pale-pink {
+    background-color: #fde2e4ff;
+}
+
+.mimi-pink {
+    background-color: #fad2e1ff;
+}
+
+.powder-blue {
+    background-color: #c5deddff;
+}
+
+.mint-cream {
+    background-color: #dbe7e4ff;
+}
+
+.alice-blue {
+    background-color: #d6e2e9ff;
+}
+
+.beau-blue {
+    background-color: #bcd4e6ff;
+}
+
+/* ------------------------------------ Hidden colour */
+
+.color-hidden {
+    background-color: #f0efebff;
+}
